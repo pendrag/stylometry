@@ -8,14 +8,15 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.decomposition import PCA, KernelPCA
 from sklearn.tree import export_graphviz
-from sklearn.cross_validation import train_test_split
-from sklearn.cross_validation import KFold
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import KFold
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_squared_error
 from IPython.display import Image
-import StringIO, pydot
-from extract import StyloCorpus
+from io import StringIO
+import pydot
+from .extract import StyloCorpus
 from pkgutil import get_data
 import random
 import os
