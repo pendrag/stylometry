@@ -1,5 +1,8 @@
 # Stylometry
 
+
+Pendrag: updated to Python 3
+
 **USE AS REFERENCE, NO FUTURE DEVELOPMENT PLANNED**
 
 This was a fun play project that I put together with [@arogers1](https://github.com/arogers1) while learning some NLP. It was a fun exploration in extracting features from text.
